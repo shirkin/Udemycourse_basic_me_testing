@@ -18,9 +18,11 @@ namespace Udemycourse_basic_me_testing
 
             areEqual = string.Equals(str1, str2, StringComparison.Ordinal);
             Console.WriteLine(areEqual);
-            //
+            
         }
-
+        /// <summary>
+        /// String format
+        /// </summary>
         static void StringFormat()
         {
             string name = "John";
